@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    background-color: #F5FAFF;
+    flex-direction: row;
+    border: 10px solid black;
+}
+#main{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 70%;
+    height: 95%;
+    flex-direction: column;
+    gap: 20px;
+}
+#bok{
+    display: flex;
+    height: 90%;
+    width: 30%;
+    flex-direction: column;
+    align-items: center;
+}
+#bok > .klocek{
+    height: 25%;
+    width: 90%;
+    justify-content: space-between;
+    border: 5px solid black;
+}
+.lista > ul > li{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.gora{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    height: 20%;
+    width: 90%;
+    gap: 20px;
+    border: 5px solid black;
+}
+.dol{
+    height: 70%;
+    width: 90%;
+    border: 5px solid black;
+}
+h3{
+    font-family: "Nunito";
+}
+.gora > div{
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 70%;
+    width: 17%;
+    background-color: #0B8673;
+    font-family: "Nunito";
+}
+.gora > img{
+    height: 80%;
+    width: 20%;
+}
