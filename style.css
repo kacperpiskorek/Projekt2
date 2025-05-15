@@ -7,17 +7,24 @@
 }
 body{
     height: 100vh;
+    width: 70vw;
     display: flex;
     background-color: #F5FAFF;
+    flex-direction: column;
+    border: 10px solid #1E1E1E;
+}
+#top1{
     flex-direction: row;
-    border: 10px solid black;
+    height: 97%;
+    width: 100%;
+    display: flex;
 }
 #main{
     align-items: center;
     justify-content: center;
     display: flex;
     width: 70%;
-    height: 95%;
+    height: 100%;
     flex-direction: column;
     gap: 20px;
 }
@@ -27,32 +34,58 @@ body{
     width: 30%;
     flex-direction: column;
     align-items: center;
+    margin-right: 30px;
+}
+#bok > .gap{
+    height: 55px;
+    width: 100%;
 }
 #bok > .klocek{
     display: flex;
-    height: 20%;
+    flex-direction: row;
+    height: 150px;
     width: 95%;
     justify-content: space-between;
-    border: 5px solid black;
+    border: 5px solid #1E1E1E;
+    align-items: center;
+    justify-content: center;
 }
 #bok > #klocek{
     display: flex;
-    height: 20%;
+    height: 150px;
     width: 95%;
     align-items: center;
     justify-content: center;
 }
-
+#klocek > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#klocek > div > h4{
+    font-family: "Nunito";
+    margin-bottom: 20px;
+}
+#klocek > div > img{
+    height: 70px;
+    width: 70px;
+}
 #bok > #klocek > div{
-    height: 95%;
-    width: 95%;
-    border: 5px solid black; 
+    height: 100%;
+    width: 100%;
+    border: 5px solid #1E1E1E; 
+}
+#filler2{
+    height: 30px;
+    width: 100%;
 }
 .lista{
     flex-direction: column;
     display: flex;
     height: 50%;
     width: 95%;
+    margin-top: 20px;
 }
 .lista > ul{
     flex-direction: column;
@@ -67,16 +100,16 @@ body{
     justify-content: center;
     display: flex;
     flex-direction: row;
-    height: 20%;
-    width: 90%;
+    height: 150px;
+    width: 95%;
     gap: 20px;
-    border: 5px solid black;
+    border: 5px solid #1E1E1E;
 }
 .dol{
     flex-direction: column;
     display: flex;
     height: 70%;
-    width: 90%;
+    width: 95%;
     border: 5px solid black;
 }
 #dols{
@@ -85,10 +118,80 @@ body{
     justify-content: center;
     align-items: center;
 }
+#dols > .dolny{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+#contact{
+    height: 50%;
+    display: flex;
+    width: 85%;
+}
 #OWIJKA{
+    flex-direction: column;
+    display: flex;
     height: 90%;
-    width: 90%;
-    
+    width: 60%;
+    padding-right: 20px ;
+}
+.dolny > .idk > img{
+    height: 250px;
+    width: 250px;
+    border-radius: 4px;
+}
+.dolny > .idk{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#OWIJKA > .filler{
+    height: 20%;
+    width: 100%;
+}
+#ttop{
+    display: flex;
+    height: 50%;
+    width: 110%;
+}
+#ttop > h4{
+       font-family: "Nunito";
+}
+#tlewo{
+    height: 100%;
+    width: 60%;
+}
+#tlewo > h4{
+       font-family: "Nunito";
+}
+#tprawo{
+    flex-direction: column;
+    padding-bottom: 50px;
+    height: 100%;
+    width: 60%;
+    display: flex;  
+}
+#Malpa{
+    height: 100%;
+    width: 5%;
+}
+#tprawo > div{
+    align-items: center;
+    display: flex;
+    height: 50%;
+    width: 100%;
+}
+#tprawo > div > img{
+    height: 30px;
+    width: 30px;
+}
+#tprawo > div > h4{
+    margin-left: 10px;
+        font-size: small;
+        font-weight: 300;
+        font-family: "Nunito";
 }
 .dol > div{
     height: 50%;
@@ -97,26 +200,176 @@ body{
 #tekst{
     display: flex;
 }
+#tdol > p{
+       font-family: "Nunito";
+       padding-right: 50px;
+}
 h1{
+    font-size: xx-large;
+    letter-spacing: 2px;
     font-weight: 1000;
-    font-family: "Lilita One"
+    font-family: "Lilita One";
+    padding-bottom: 10px;
+    max-width: 1000px;
+    
 }
 h3{
+    margin-bottom: 20px;
     font-family: "Nunito";
     font-weight: 1000;
+}
+ul{
+    list-style-type: none;
+     font-family: "Nunito";
 }
 .gora > div{
     color: whitesmoke;
     justify-content: center;
     align-items: center;
     display: flex;
-    height: 70%;
+    height: 60%;
     width: 17%;
-    font-size: xx-large;
+    font-size: x-large;
     background-color: #0B8673;
     font-family: "Nunito";
 }
 .gora > img{
     height: 80%;
     width: 20%;
+}
+.klocek > h4{
+    font-family: "Nunito";
+    font-size: larger;
+}
+.klocek > img{
+    height: 70px;
+    width: 70px;
+    margin-left: 10px;
+}
+#oddzielenie{
+    height: 20px;
+    width: 100%;
+}
+.linie{
+    margin-left: 10px;
+    gap: 4px;
+    height: 3px;
+    width: 100%;
+    border-top: 5px dashed #1E1E1E;
+}
+#clewo{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+#cprawo{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    height: 100%;
+    width: 50%;
+}
+.experience{
+    justify-content: center;
+    align-items: center;
+    font-family: "Nunito";
+    display: flex;
+    height: 70px;
+    width: 300px;
+    border: 3px solid #1E1E1E;
+}
+.experiencedol{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 180px;
+    width: 300px;
+    background-color: #1E1E1E;
+}
+.Email{
+    flex-direction: column;
+    display: flex;
+    height: 180px;
+    width: 300px;
+    border: 3px solid #1E1E1E;
+}
+.Contactme{
+    flex-direction: row;
+    display: flex;
+    height: 70px;
+    width: 300px;
+    background-color: #1E1E1E;
+}
+#ContactLewo{
+    font-family: "Nunito";
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+}
+#ContactPrawo{
+    flex-direction: row-reverse;
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#ContactLewo > h2{
+    color: whitesmoke;
+}
+#ContactPrawo > img{
+    height: 50px;
+    width: 50px;
+}
+#Bob{
+    height: 100%;
+    width: 10%;
+}
+#Luffy{
+    height: 100%;
+    width: 10%;
+}
+#emailg{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 30%;
+    width: 70%;
+}
+#emailb{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 70%;
+    width: 100%;
+}
+#emailg > input{
+    border: 2px solid black;
+    padding: 10px;
+}
+#emailb > input{
+    border: 2px solid black;
+    height: 90%;
+    width: 95%;
+}
+.experiencedol > div{
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 100%;
+    display: flex;
+}
+.experiencedol > div > h3{
+    color: #F5FAFF;
+    font-weight: 500;
+}
+#Kot{
+    height: 100%;
+    width: 10%;
 }
